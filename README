@@ -1,0 +1,42 @@
+# Worko Backend API
+
+Worko is a platform designed to assist job seekers in requesting referrals from multiple companies. It also provides services like resume review, interview preparation, career guidance, and mock interviews.
+
+## Features
+
+- RESTful API built with Node.js and Express
+- MVC architecture for code organization
+- MongoDB for data storage (NoSQL database)
+- Basic authentication for API endpoints
+- Joi for request validation
+- Unit tests with Jest (ensure at least 60% coverage)
+- Environment variable management using dotenv
+
+## Requirements
+
+- Node.js (version 14.x recommended)
+- MongoDB
+- npm or yarn package manager
+- Postman or any API testing tool
+
+## Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/Omkar125683/Worko.git
+   cd worko
+
+2. **install the Dependecy**
+    npm i or npm install
+
+3 **Add .env File and replace with**
+    PORT=3000
+    MONGO_URI=mongodb://localhost:27017/worko
+
+4.**run the code**
+    npm run dev or node index.js
+
+
+
+
