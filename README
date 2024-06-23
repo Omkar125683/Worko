@@ -38,5 +38,18 @@ Worko is a platform designed to assist job seekers in requesting referrals from 
     npm run dev or node index.js
 
 
+## Testing api
+ Using Postman or Any other Tool
+##List all users GET /worko/user
+   **http://localhost:3000/api/v1/Worko/user**
+## Get user details GET /worko/user/
+   **http://localhost:3000/api/v1/Worko/user:userid**
+## Creating User POST /worko/user
+   **http://localhost:3000/api/v1/worko/user**
+## Update a user PUT /worko/user/
+## DELETE /worko/user
+
+
+
 
 
